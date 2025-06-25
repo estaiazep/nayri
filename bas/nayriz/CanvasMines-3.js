@@ -29,9 +29,9 @@ window.addEventListener("load", resizeCanvas)
 
 // Загрузка изображений
 const rectangleImg = new Image()
-rectangleImg.src = "RectangleMines.svg"
+rectangleImg.src = "../bas/nayriz/resource/RectangleMines.svg"
 const starImg = new Image()
-starImg.src = "StarMines.svg"
+starImg.src = "../bas/nayriz/resource/StarMines.svg"
 
 // Кастомизируемые переменные
 const gridSize = 5 // Размер сетки (количество прямоугольников в ряду/столбце)
